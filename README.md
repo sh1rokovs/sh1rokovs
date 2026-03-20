@@ -1,18 +1,5 @@
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   ███████╗██╗  ██╗ ██╗██████╗  ██████╗ ██╗  ██╗ ██████╗    ║
-║   ██╔════╝██║  ██║███║██╔══██╗██╔═══██╗██║ ██╔╝██╔════╝    ║
-║   ███████╗███████║╚██║██████╔╝██║   ██║█████╔╝ ╚█████╗     ║
-║   ╚════██║██╔══██║ ██║██╔══██╗██║   ██║██╔═██╗  ╚═══██╗    ║
-║   ███████║██║  ██║ ██║██║  ██║╚██████╔╝██║  ██╗██████╔╝    ║
-║   ╚══════╝╚═╝  ╚═╝ ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝    ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
 # Sergey Shirokov
 ### Lead Backend Engineer · Building Systems at Scale
 
@@ -29,173 +16,39 @@
 ```python
 class SergeyShirokov:
     role        = "Lead Backend Engineer"
-    company     = "Uspect"
+    companies   = ["Uspect (Lead)", "T-Bank (Senior)", "Rejuro (Senior)"]
     location    = "Russia / Nizhny Novgorod · Moscow"
-    
+    experience  = "5+ years in backend & distributed systems"
+
     focus       = [
-        "High-load distributed systems",
-        "API design & architecture",
-        "System design & optimization",
-        "ML pipeline integration",
+        "Microservices architecture & high-load systems",
+        "LLM / RAG / MCP integration into products",
+        "Fintech platforms — investments, portfolio, trading",
+        "Team lead: decomposition, code review, mentoring",
+        "Security: pentesting, Keycloak, audit",
     ]
 
-    currently   = "Architecting scalable backend infrastructure"
+    stack = {
+        "languages":  ["Python 3.12", "Go 1.23"],
+        "frameworks": ["Django", "FastAPI", "DRF"],
+        "data":       ["PostgreSQL", "ClickHouse", "Elasticsearch", "Redis"],
+        "infra":      ["Kafka", "RabbitMQ", "Kubernetes", "Docker", "GitLab CI/CD"],
+        "observ":     ["Prometheus", "OpenTelemetry", "ELK Stack"],
+        "ai_ml":      ["LLM", "RAG", "MCP", "Whisper", "BERT", "LangChain"],
+    }
+
     contact     = "tg: @srtheone"
 ```
 
----
+## `$ cat /etc/experience`
 
-## `$ ls -la /skills`
-
-<table>
-<tr>
-<td valign="top" width="33%">
-
-**Backend**
-```
-✦ Python         ████████████ 
-✦ FastAPI        ████████████ 
-✦ Django         ██████████░░ 
-✦ PostgreSQL     ████████████ 
-✦ Redis          ███████████░ 
-✦ Kafka          █████████░░░ 
-```
-
-</td>
-<td valign="top" width="33%">
-
-**Infrastructure**
-```
-✦ Docker         ████████████ 
-✦ Kubernetes     █████████░░░ 
-✦ CI/CD          ██████████░░ 
-✦ Linux          ████████████ 
-✦ Nginx          ██████████░░ 
-✦ Grafana        ████████░░░░ 
-```
-
-</td>
-<td valign="top" width="33%">
-
-**ML / Security**
-```
-✦ Sklearn        ████████░░░░ 
-✦ Jupyter        ████████░░░░ 
-✦ OSINT          █████████░░░ 
-✦ Forensics      ████████░░░░ 
-✦ LSB Crypto     ███████░░░░░ 
-✦ Data Analysis  ████████░░░░ 
-```
-
-</td>
-</tr>
-</table>
-
----
-
-## `$ cat /projects/pinned`
-
-<table>
-<tr>
-<td width="50%">
-
-### 🏗️ [Architecture](https://github.com/sh1rokovs/Architecture)
-> Architectural diagrams and system design blueprints.
-> A reference collection of patterns, schemas and sketches for backend systems.
-
-`Python` · `System Design` · `Documentation`
-
-</td>
-<td width="50%">
-
-### 📊 [ML Car Price Predictor](https://github.com/sh1rokovs/Machine_Learning_Car_Price)
-> Classification model predicting categorical price features
-> from numerical attributes.
-
-`Jupyter Notebook` · `Sklearn` · `ML`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ⚙️ [ML Engine Cylinders](https://github.com/sh1rokovs/Machine_Learning_Engine)
-> Predicting engine cylinder count from vehicle features.
-> Multi-class classification task.
-
-`Jupyter Notebook` · `Classification` · `ML`
-
-</td>
-<td width="50%">
-
-### 🔍 [Information Security OSINT](https://github.com/sh1rokovs/Information_Security_OSINT)
-> Curated toolkit of OSINT tools and intelligence resources
-> for security researchers.
-
-`Security` · `OSINT` · `Research`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🔐 [Information Security Forensics](https://github.com/sh1rokovs/Information_Security_Forensics)
-> Digital forensics tools. LSB steganography encrypt/decrypt
-> implementation.
-
-`Python` · `Cryptography` · `Forensics`
-
-</td>
-<td width="50%">
-
-### 📚 [Developer Documentation](https://github.com/sh1rokovs/Developer_Documentation_Repository)
-> Technical documentation hub for development processes,
-> standards and guidelines.
-
-`Python` · `Docs` · `Standards`
-
-</td>
-</tr>
-</table>
-
----
-
-## `$ top` — GitHub Stats
-
+| Period | Company | Role | Key Work |
+|--------|---------|------|----------|
+| 2023 — now | **Uspect** | Lead Backend Engineer | Microservices, LLM/RAG/MCP integration, AI meeting assistant, geo-platform, video surveillance |
+| 2024 — 2026 | **T-Bank** | Senior Backend Engineer | High-load fintech, investment platform, Bank-as-a-Service, multitenancy |
+| 2021 — 2025 | **Rejuro** | Senior Backend / ML | Fintech portfolio system (Go), GitLab code-review bot (LLM), IT ecosystem |
+| 2022 — 2023 | **Solar** | Pentester | Incident investigation, penetration testing, security audits |
 <div align="center">
-
-![Sergey's GitHub stats](https://github-readme-stats.vercel.app/api?username=sh1rokovs&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=6e40c9&icon_color=6e40c9&text_color=c9d1d9)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sh1rokovs&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=6e40c9&text_color=c9d1d9)
-
-</div>
-
----
-
-## `$ cat /etc/philosophy`
-
-```
-"First, solve the problem. Then, write the code."
- 
-Good architecture is invisible.
-Bad architecture is unforgettable.
-
-Write systems that outlive their authors.
-```
-
----
-
-<div align="center">
-
-```
-┌─────────────────────────────────────────────┐
-│  Available for system design consultations  │
-│  and interesting backend challenges.        │
-│                                             │
-│  tg: @srtheone                              │
-└─────────────────────────────────────────────┘
-```
-
 *Russia / Nizhny Novgorod · Moscow — UTC+3*
 
 </div>
