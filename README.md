@@ -18,7 +18,7 @@ class SergeyShirokov:
     role        = "Lead Backend Engineer"
     companies   = ["Uspect (Lead)", "T-Bank (Senior)", "Rejuro (Senior)"]
     location    = "Russia / Nizhny Novgorod · Moscow"
-    experience  = "5+ years in backend & distributed systems"
+    experience  = "6+ years in backend & distributed systems"
 
     focus       = [
         "Microservices architecture & high-load systems",
