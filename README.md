@@ -16,7 +16,6 @@
 ```python
 class SergeyShirokov:
     role        = "Lead Backend Engineer"
-    companies   = ["Uspect (Lead)", "T-Bank (Senior)", "Rejuro (Senior)"]
     location    = "Russia / Nizhny Novgorod · Moscow"
     experience  = "6+ years in backend & distributed systems"
 
